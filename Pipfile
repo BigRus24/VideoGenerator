@@ -1,0 +1,42 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "*"
+botocore = "*"
+gtts = "*"
+praw = "*"
+prawcore = "*"
+requests = "*"
+rich = "*"
+translators = "*"
+pyttsx3 = "*"
+pillow = "*"
+clean-text = "*"
+unidecode = "*"
+spacy = "*"
+torch = "*"
+transformers = "*"
+ffmpeg-python = "*"
+elevenlabs = "*"
+yt-dlp = "*"
+google-api-python-client = "*"
+google-auth-httplib2 = "*"
+google-auth-oauthlib = "*"
+openai = "*"
+google-generativeai = "*"
+g4f = {extras = ["all"], version = "*"}
+tomli = "*"
+tomli-w = "*"
+imageio-ffmpeg = "*"
+imageio = "*"
+numpy = "*"
+proglog = "*"
+python-dotenv = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
